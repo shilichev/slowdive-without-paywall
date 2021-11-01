@@ -1,5 +1,5 @@
-var animationSpeed = 1;
-var timeOfAnimation = 1;
+var animationSpeed = 500;
+var timeOfAnimation = 800;
 var questionObjList = [
   {
     question: "What do money & material things mean to you?",
