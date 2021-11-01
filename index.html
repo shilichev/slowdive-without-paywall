@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <title>Slowdive v5</title>
+    <link rel="stylesheet" href="style.css?v=11212223123212" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js?=1212qw2312212233"></script>
+  </head>
+  <body>
+    <div class="special-overlay"></div>
+    <div class="bgView"></div>
+    <div class="view" data-position="start">
+      <div class="header">
+        <p class="title">
+          Which Chakras<br />
+          are Blocked?
+        </p>
+        <p class="subtitle">
+          Take a short test to understand<br />
+          <span class="subtitle--blue">which chakras are inbalanced</span>
+        </p>
+      </div>
+      <div class="content">
+        <img class="title_image" src="images/manNoGlow%201.png" />
+      </div>
+      <div class="footer">
+        <div class="btn btn--control btn--uppercase btn--start">
+          START A TEST
+        </div>
+        <p class="sup">7 questions</p>
+      </div>
+    </div>
+    <div class="view" data-position="play">
+      <div class="header">
+        <img
+          class="question-image"
+          src="images/money.svg"
+          alt="Что для вас деньги и вещи?"
+        />
+        <p class="title title--question">
+          Что для вас<br />
+          деньги и вещи?
+        </p>
+      </div>
+      <div class="divider--container">
+        <img class="divider" src="images/divider.svg" alt="разделитель" />
+      </div>
+
+      <div class="content">
+        <div class="btn btn--answer">Самое важное в жизни</div>
+        <div class="btn btn--answer">
+          Это лишь инструменты<br />
+          для достижения целей
+        </div>
+        <div class="btn btn--answer">
+          Не имеют особого<br />
+          значения
+        </div>
+      </div>
+      <div class="footer">
+        <div class="btn btn--control btn--uppercase btn--next hidden">
+          Continue
+        </div>
+        <p class="sup">
+          <span id="questionNumber">1</span>/<span id="questionCNT">7</span>
+          questions
+        </p>
+      </div>
+    </div>
+    <div class="view" data-position="result">
+      <div class="header header--finish">
+        <img class="finish-image" src="images/manNoGlow%201.png" />
+        <p class="title title--question">
+          THE THIRD EYE CHAKRA<br />
+          IMBALANCE
+        </p>
+        <img class="divider" src="images/divider.svg" alt="разделитель" />
+      </div>
+      <div class="content content-finish">
+        <p class="text-finish">
+          Your root chakra is what connects you to life force energy in the
+          Earth and keeps you grounded and steady. When this chakra is balanced,
+          you feel secure and steady in who you are and where you are going.
+          However, when there is an imbalance in this chakra, you may experience
+          extreme volatility in your emotions.
+          <br /><br />
+          Because this is like the gateway chakra to Kundalini energy, it is one
+          of the more important chakras to heal first. When you open the
+          chakras, energy first needs to flow through the Muladhara chakra, so
+          it’s important to keep is clear and healthy.
+          <br /><br />
+          Чтобы сбалансировать Вишудху, вам подойдет специальная медитация на
+          балансировку чакр
+        </p>
+      </div>
+      <div class="footer footer-finish">
+        <div class="btn btn--control btn--uppercase btn--continue">
+          Continue
+        </div>
+      </div>
+    </div>
+
+    <div class="view" data-position="finish">
+      <div class="header--finish">
+        <img class="finish-image" src="images/manNoGlow%201.png" />
+        <p class="title title--question">
+          CHAKRA BALANCING<br />
+          MEDITATION
+        </p>
+        <img class="divider" src="images/divider.svg" alt="разделитель" />
+      </div>
+      <div class="content content-finish">
+        <p class="text-finish tight no-bottom-padding">
+          This meditation will help you feel your chakra system, freeing you
+          from the things which are holding you down.
+        </p>
+        <p class="text-finish tight no-bottom-padding">
+          Just listen to the voice and follow simple instructions
+        </p>
+      </div>
+      <div class="footer footer-finish">
+        <button
+          target="_blank"
+          title="Start Slowdive meditation"
+          class="btn btn--control btn--uppercase btn--finish"
+        >
+          <div class="start-meditation">Start meditation</div>
+        </button>
+        <p class="text-finish no-bottom-padding sup">Duration: 7 minutes</p>
+      </div>
+    </div>
+
+ 
+    <div class="animation--container" data-position="animation"></div>
+    <div class="animation--container-1" data-position="animation"></div>
+    <div class="animation--container-2" data-position="animation"></div>
+    <div class="animation--container-3" data-position="animation"></div>
+    <div class="animation--container-4" data-position="animation"></div>
+    <div class="animation--container-5" data-position="animation"></div>
+    <div class="animation--container-6" data-position="animation"></div>
+    <div class="animation--container-7" data-position="animation"></div>
+    <div class="transition-text">
+      Setting up your unique<br />
+      meditation experience...
+    </div>
+  </body>
+</html>
